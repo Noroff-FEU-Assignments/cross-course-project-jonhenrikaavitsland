@@ -8,6 +8,19 @@
     <p>Welcome to my first website.</p>
     <h2>Web Security</h2>
     <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer">[Answer here]</p>
+    <p id="web-security-answer">To protect your website from web secuity attacks we advice you to implement the following practices:</p>
+    <ul>
+      <li>Make sure that your hosting plaform is safe and secure.</li>
+      <li>Rewrite code to ensure that no markup is able to run hostile code.</li>
+      <li>Use web frameworks that include CSRF prevention mechanisms.</li>
+      <li>Make HTTP headers appropriate.</li>
+      <li>Sanitizing data where needed to prevent possible security breaches.</li>
+      <li>We highly encourage the use of stronger passwords and make sure that it is hard to crack your authorization and authentication, this is best achieved by utilizing open-standard authorization protocol or framework like Okla, OneLogin, etc.</li>
+      <li>To protect your users we advise you to implement automatic user timeout.
+      </li>
+      <li>Utilize Continuous Deployment/Continuous Integration (CI/CD) when having developers work on your code. This will automatically check any changes made to the code and flag for rework code that else would be a security threat.</li>
+      <li>Make sure that all third-party applications that are being used are well-known, this ensures that the third-party application is trusted and tested. It might require that one take the time to research before any such application can be used.</li>
+      <li>Lastly and not to be forgotten, we urge you to configure your web server to use HTTPS and HTTP Strict Transport Security (HSTS). This is an encryption of the data sent between your server and your clients. This makes sure that data is not easily available to attackers.</li>
+    </ul>
   </body>
 </html>
